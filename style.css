@@ -1,0 +1,145 @@
+body {
+  background-color: #f2edd5;
+}
+
+#canvas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:2;
+
+  border: 5px #0d0c0b solid;
+	border-radius: 2px;
+}
+
+#displayCanvas{
+  top: 300px;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 25px;
+}
+
+#video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  
+  border: 5px #0d0c0b solid;
+	border-radius: 2px;
+}
+
+#caustics{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+
+#source{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border: 5px #0d0c0b solid;
+	border-radius: 2px;
+}
+
+#text{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  color: #0d0c0b;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  font-size: auto;
+  letter-spacing: 50px;
+}
+
+#text_negative{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  color: #f2edd5;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  font-size: auto;
+  letter-spacing: 50px;
+}
+
+#button1{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 3;
+  width: 35%;
+
+  background-color: #f2edd5;
+  color: #0d0c0b;
+
+  padding: 5px;
+
+  border: 2px #0d0c0b solid;
+  border-radius: 2px;
+
+  font-family: 'Helvetica Neue';
+  text-align: center;
+  font-size: auto;
+  letter-spacing: 10px;
+}
+
+#button1:hover{
+  background-color: #0d0c0b;
+  color: #f2edd5;
+}
+
+#button2{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 3;
+  width: 35%;
+
+  background-color: #f2edd5;
+  color: #0d0c0b;
+
+  padding: 5px;
+
+  border: 2px #0d0c0b solid;
+  border-radius: 2px;
+
+  font-family: 'Helvetica Neue';
+  text-align: center;
+  font-size: auto;
+  letter-spacing: 10px;
+}
+
+#button2:hover{
+  background-color: #0d0c0b;
+  color: #f2edd5;
+}
+
+ a{
+  text-decoration: none;
+}
